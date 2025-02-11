@@ -1,0 +1,49 @@
+body {
+    font: 15px arial, helvetica, sans-serif;
+    background-color: rgba(0, 132, 255, 0.664);
+}
+header {
+    background: rgb(0, 38, 82);
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    margin-bottom: 10px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header a {
+    color: antiquewhite;
+    text-decoration: navajowhite;
+    text-transform: uppercase;
+    font-size: 16px;
+   
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header nav {
+    float: right;
+    
+}
+header .highlight, header .current a {
+    color: blueviolet;
+    font-weight: bold;
+}
+header #branding h1 {
+    margin: 0;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.856);
+    margin: 30px 500px;
+    height: 500px;
+    float: left;
+
+}
